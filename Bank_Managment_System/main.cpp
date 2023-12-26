@@ -14,12 +14,94 @@ public:
 
 void Bank::AtmManagment()
 {
+p:
     std::cout<<__FUNCTION__;
+    system("cls");
+    int choice;
+    std::cout<<"\n\n\t\t ATM Managment System";
+    std::cout<<"\n\n 1. User Login & Check Balance";
+    std::cout<<"\n 2. Withdraw Amount";
+    std::cout<<"\n 3. Account Details";
+    std::cout<<"\n 4. GO Back";
+    std::cout<<"\n\n Enter Your Choice : ";
+    std::cin>>choice;
+
+    switch(choice)
+    {
+    case 1 :
+        break;
+    case 2:
+        break;
+    case 3:
+        break;
+    case 4:
+        Menu();
+        break;
+    default:
+        std::cout<<"\n\n Invalid Value ...Please Try Again...";
+    }
+
+    getch();
+    goto p;
+
+
 }
 
 void Bank::BankManagment()
 {
+p:
     std::cout<<__FUNCTION__;
+    system("cls");
+    int choice;
+    std::cout<<"\n\n\t\t Bank Managment System";
+    std::cout<<"\n\n 1. New User";
+    std::cout<<"\n 2. Already User";
+    std::cout<<"\n 3. Deposit Option";
+    std::cout<<"\n 4. Withdraw option";
+    std::cout<<"\n 5. Transfer option";
+    std::cout<<"\n 6. Payment option";
+    std::cout<<"\n 7. Search User Record";
+    std::cout<<"\n 8. Edit User Record";
+    std::cout<<"\n 9. Delete User Record";
+    std::cout<<"\n 10. Show All Records";
+    std::cout<<"\n 11. Payment All records";
+    std::cout<<"\n 12. Go Back";
+    std::cout<<"\n\n Enter Your Choice : ";
+    std::cin>>choice;
+
+    switch(choice)
+    {
+    case 1 :
+        break;
+    case 2:
+        break;
+    case 3:
+        break;
+    case 4:
+        break;
+    case 5:
+        break;
+    case 6:
+        break;
+    case 7:
+        break;
+    case 8:
+        break;
+    case 9:
+        break;
+    case 10:
+        break;
+    case 11:
+        break;
+    case 12:
+        Menu();
+        break;
+    default:
+        std::cout<<"\n\n Invalid Value ...Please Try Again...";
+    }
+
+    getch();
+    goto p;
 }
 
 void Bank::Menu()
